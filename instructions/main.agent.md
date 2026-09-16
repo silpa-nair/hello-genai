@@ -19,5 +19,8 @@ Each entry below is an instruction file with a one-line description. Optional su
 - [`./instructions/wire-confluence-publish-entrypoint.agent.md`](./wire-confluence-publish-entrypoint.agent.md) — wire a report builder into a runnable `main.py` entry point that publishes to a Confluence page.
   + Keywords: entry point, main.py, publish to Confluence, wire builder, scheduled job
 
+- [`./instructions/follow-jira-confluence-conventions.agent.md`](./follow-jira-confluence-conventions.agent.md) — shared baseline conventions (env vars, client reuse, completion check, output format) referenced by the report-builder and entry-point instructions.
+  + Keywords: jira conventions, confluence conventions, shared conventions, env vars, story points field
+
 - [`./instructions/write-module-unit-tests.agent.md`](./write-module-unit-tests.agent.md) — write unit tests for a project module, covering normal/edge cases with mocked API calls.
   + Keywords: unit tests, test coverage, pytest, mock API, edge cases
