@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Open Webpage Button</title>
+</head>
+<body>
+  <button id="goToBrowserBtn">Go to Browser</button>
+# just to try
+  <script>
+    const button = document.getElementById("goToBrowserBtn");
+
+    button.addEventListener("click", () => {
+      window.open("https://www.example.com", "_blank");
+    });
+  </script>
+</body>
+</html>
